@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    /* see html tag options below */
+    box-sizing: inherit;
+}
+
+html {
+    /* include border and padding into height and width */
+    box-sizing: border-box;
+
+    /* smooth scrolling after clicking navbar links */
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: Gainsboro;
+}
+
+kbd {
+    display: inline-block;
+}
+
+.white-keys,
+.black-keys {
+    display: inline-block;
+}
+
+.white-keys {
+    margin: auto;
+    width: 100%;
+}
+
+.white-keys kbd {
+    padding-top: 120px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: -5px;
+    height: 150px;
+    width: 40px;
+}
+
+.black-keys kbd {
+    position: relative;
+    padding-top: 75px;
+    color: white;
+    background-color: black;
+    height: 100px;
+    width: 30px;
+    bottom: 150px;
+}
+
+#W {
+    right: 33px;
+}
+
+#E {
+    right: 28px;
+}
+
+#T {
+    right: -16px;
+}
+
+#Y {
+    right: -22px;
+}
+
+#U {
+    right: -27px;
+}
+
+.container {
+    margin-top: 10%;
+    text-align: center;
+}
